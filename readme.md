@@ -23,7 +23,7 @@ All other settings (e.g. time horizon, normalization factor used in the network 
 ### After calculation the necessary results, the Figures in the manuscript can be reproduced using the following files
 - fig1.py
 - analyzeSTATEdist.py (Fig. 2)
-- visualize_I_parcel.py (Fig. 2)
+- visualize_I_parcel.py (Fig. 3)
 - analysis_energetics.py (Fig. 4)
 
 ### Results without figures were obtained with the following scripts
