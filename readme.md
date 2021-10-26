@@ -1,5 +1,5 @@
 # Structural Constraints on Information Content in Human Brain States
-## Code accompanying the publication in xxxxx
+## Code accompanying the paper "The information content of brain states is explained by structural constraints on state energetic"
 
 ### Necessary files
 - Diffusion connectivity matrices
@@ -19,14 +19,13 @@ All other settings (e.g. time horizon, normalization factor used in the network 
 - run_ic.py (for Information content)
 - run_ce.py (for Minimum control energy)
 - run_ctrbty.py (for Average controllability)
-- neurosynth_prep.py (for Neurosynth comparison)
 
 ### After calculation the necessary results, the Figures in the manuscript can be reproduced using the following files
 - fig1.py
 - analyzeSTATEdist.py (Fig. 2)
-- GLM_compute.py, neurosynth_vis.py, analyzeREGIONS.py (Fig. 3)
+- visualize_I_parcel.py (Fig. 2)
 - analysis_energetics.py (Fig. 4)
 
-### Results without figures can be seen with the following scripts
-- ctrbty_pred_err.py (Result section C)
+### Results without figures were obtained with the following scripts
+- ctrbty_pred_err.py (Result section D)
 - relation_MCE_IC_SED.py (Appendix)
